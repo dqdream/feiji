@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">打灰机</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="NewGame">开始游戏</string>
+    <string name="GravityModel">重力模式</string>
+     <string name="WaiGua">外挂模式...</string>
+    <string name="Scores">分数排行榜</string>
+     <string name="BluetoothPK">蓝牙PK</string>
+      <string name="About">关于</string>
+    <string name="ExitGame">退出游戏</string>
+    <string name="Return">返回</string>
+    <string name="FeiJiScore">飞机大战分数</string>
+    <string name="FeiJiScoreList">飞机大战分数排行榜</string>
+    <string name="FeijiTextAbout">这个是个人二次开发的,借鉴腾讯的打飞机。还有一些BUG 正在修改中,谢谢大家的支持</string>
+      <string name="FeijiTextQQ">详情QQ 409585605</string>
+    <color name="black">#ff000000</color>
+    <color name="gray">#7B797B</color>
+
+    
+</resources>

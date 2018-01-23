@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        style="@style/BackGround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo"
+            android:contentDescription="@drawable/logo" />
+
+        <Button
+            android:id="@+id/feiji_bu_new"
+            style="@style/Button_Style"
+            android:text="@string/NewGame" />
+
+        <Button
+            android:id="@+id/feiji_bu_gravity"
+            style="@style/Button_Style"
+            android:text="@string/GravityModel" />
+         <Button
+            android:id="@+id/feiji_bu_waigua"
+            style="@style/Button_Style"
+            android:text="@string/WaiGua" />
+        <Button
+            android:id="@+id/feiji_bu_score"
+            style="@style/Button_Style"
+            android:text="@string/Scores" />
+
+
+        <Button
+            android:id="@+id/feiji_bu_exit"
+            style="@style/Button_Style"
+            android:text="@string/ExitGame" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/feiji_rel_about"
+        android:layout_width="wrap_content"
+        android:layout_height="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/def_instro_popboxfail2" >
+
+        <ImageView
+            android:id="@+id/feiji_image_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/smiley_1" />
+
+        <ImageView
+            android:id="@+id/feiji_image_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/feiji_image_about"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/img_dialog_close_icon" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
